@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satyam Ediz - Creative World Peace Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Roboto:wght@400;700&family=Caveat:wght@400;700&family=Montserrat:wght@500;700&family=Pacifico&family=Architects+Daughter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Animated Header with Peace Theme -->
+    <header class="header">
+        <div class="particles"></div>
+        <div class="header-content">
+            <h1 class="animated-title pacifico">Satyam Ediz</h1>
+            <p class="animated-subtitle architects">Spreading Creativity & World Peace</p>
+            <div class="header-links">
+                <a href="#home" class="header-btn roboto">Home</a>
+                <a href="#about" class="header-btn roboto">About</a>
+                <a href="#portfolio" class="header-btn roboto">Portfolio</a>
+                <a href="hire-me.html" class="header-btn roboto">Hire Me</a>
+                <a href="portfolio-2.html" class="header-btn roboto">Portfolio 2</a>
+                <a href="gallery.html" class="header-btn roboto">Gallery</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo pacifico">Satyam Ediz</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="hire-me.html">Hire Me</a></li>
+            <li><a href="portfolio-2.html">Portfolio 2</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">☰</div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay">
+            <div class="hero-content">
+                <h1 class="fade-in montserrat">Welcome to Satyam Ediz</h1>
+                <p class="fade-in-delay caveat">Creating Peace Through Art & Editing</p>
+                <a href="#portfolio" class="btn slide-in">Explore Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2 class="section-title montserrat">About Me</h2>
+        <div class="about-container">
+            <div class="about-image">
+                <img src="file:///C:/Users/hp/OneDrive/Desktop/satyam-photo.jpg" alt="Satyam Singh" class="profile-img rotate-scale">
+            </div>
+            <div class="about-text">
+                <p class="roboto">Hi, I’m Satyam Singh, a 12th-class student from Satna, passionate about creativity. Since 8th class, I’ve used my HP Core i7 laptop to master Adobe Premiere Pro (after starting with CapCut), Photoshop, and design. My brand <strong>Satyam Ediz</strong> aims to spread joy and peace through stunning visuals.</p>
+                <p class="pacifico">Let’s collaborate for a peaceful, creative world!</p>
+                <a href="hire-me.html" class="btn bounce">Hire Me</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section">
+        <h2 class="section-title montserrat">My Portfolio</h2>
+        <div class="portfolio-grid">
+            <div class="portfolio-item fade-in-up">
+                <img src="project1.jpg" alt="Project 1">
+                <div class="overlay">
+                    <h3 class="caveat">Peace Promo</h3>
+                    <p class="roboto">Video for a school peace event.</p>
+                    <a href="https://youtube.com/me__satyam_" class="view-btn">View</a>
+                </div>
+            </div>
+            <div class="portfolio-item fade-in-up" style="animation-delay: 0.2s">
+                <img src="project2.jpg" alt="Project 2">
+                <div class="overlay">
+                    <h3 class="caveat">Photo Harmony</h3>
+                    <p class="roboto">Retouched portrait with peace theme.</p>
+                    <a href="https://instagram.com/me__satyam_" class="view-btn">View</a>
+                </div>
+            </div>
+            <div class="portfolio-item fade-in-up" style="animation-delay: 0.4s">
+                <img src="project3.jpg" alt="Project 3">
+                <div class="overlay">
+                    <h3 class="caveat">Peace Poster</h3>
+                    <p class="roboto">Design for a global harmony campaign.</p>
+                    <a href="https://linkedin.com/in/me__satyam_" class="view-btn">View</a>
+                </div>
+            </div>
+        </div>
+        <a href="gallery.html" class="btn see-more slide-in">See Full Gallery</a>
+    </section>
+
+    <!-- Contact Section with Messaging -->
+    <section id="contact" class="section">
+        <h2 class="section-title montserrat">Contact Me</h2>
+        <p class="pacifico">Spread peace with Satyam Ediz! Message me anytime.</p>
+        <p>Current Date & Time: <span id="date-time">Loading...</span></p>
+        <form id="contact-form">
+            <input type="text" placeholder="Your Name" class="fade-in" required>
+            <input type="email" placeholder="Your Email" class="fade-in-delay" required>
+            <select name="contact-method" class="fade-in" required>
+                <option value="gmail">Via Gmail (satyamsingh@example.com)</option>
+                <option value="instagram">Via Instagram (me__satyam_)</option>
+            </select>
+            <textarea placeholder="Your Message" class="fade-in" required></textarea>
+            <button type="submit" class="btn bounce">Send Message</button>
+        </form>
+        <p class="roboto">Request a Quote: <a href="hire-me.html" class="btn">Click Here</a></p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3 class="montserrat">Satyam Ediz</h3>
+                <p class="roboto">Creative Peace Maker</p>
+            </div>
+            <div class="footer-section">
+                <h3 class="montserrat">Links</h3>
+                <ul>
+                    <li><a href="#home" class="roboto">Home</a></li>
+                    <li><a href="#about" class="roboto">About</a></li>
+                    <li><a href="#portfolio" class="roboto">Portfolio</a></li>
+                    <li><a href="hire-me.html" class="roboto">Hire Me</a></li>
+                    <li><a href="portfolio-2.html" class="roboto">Portfolio 2</a></li>
+                    <li><a href="gallery.html" class="roboto">Gallery</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3 class="montserrat">Follow Me</h3>
+                <div class="social-links">
+                    <a href="https://instagram.com/me__satyam_"><i class="fab fa-instagram"></i></a>
+                    <a href="https://youtube.com/me__satyam_"><i class="fab fa-youtube"></i></a>
+                    <a href="https://linkedin.com/in/me__satyam_"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <p class="footer-bottom roboto">© 2025 Satyam Singh - Satyam Ediz. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
